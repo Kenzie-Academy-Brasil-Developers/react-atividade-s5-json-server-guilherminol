@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "email": "kenzinho@mail.com",
+      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+      "name": "Kenzinho",
+      "age": 38,
+      "id": 1
+    },
+    {
+      "email": "guilherminolucasc@gmail.com",
+      "password": "$2a$10$v6OE.ULVID0ISswNYVT3iuq/dBq4QQKR8xBqlOe/CR14ElgvIZSoe",
+      "name": "Guilhermino",
+      "age": 20,
+      "id": 2
+    }
+  ],
+  "notes": [
+    {
+      "title": "titulo",
+      "description": "teste do meu coração",
+      "userId": 2,
+      "id": 1
+    }
+  ],
+  "events": [
+    {
+      "users": [],
+      "title": "Formatura Q2",
+      "date": "november",
+      "description": "Formatura da turma de mai-21 em front-end",
+      "userId": 2,
+      "id": 1
+    }
+  ]
+}
