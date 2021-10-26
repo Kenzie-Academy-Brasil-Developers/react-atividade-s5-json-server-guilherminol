@@ -13,7 +13,6 @@ POST /signup <br/>
 POST /users
 
 Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
-Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
 
 ### Login
 
@@ -21,3 +20,15 @@ POST /login <br/>
 POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+
+### Notes
+
+POST /notes
+
+Para adicionar uma nova nota pessoal use este endpoint, lembre-se de estar logado e de passar o seu userId
+
+### Event
+
+POST /events
+
+Eventos podem ter vários usuários mas só o dono pode alterar o evento, lembre-se de estar logado e passar seu userId
